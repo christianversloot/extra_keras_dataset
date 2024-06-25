@@ -52,7 +52,7 @@ def load_data(path="emnist_matlab.npz", type="balanced"):
 
     # Load data
     path = get_file(
-        path, origin=("http://www.itl.nist.gov/iaui/vip/cs_links/EMNIST/"
+        path, origin=("https://biometrics.nist.gov/cs_links/EMNIST/"
                       "matlab.zip")
     )
     with ZipFile(path, "r") as opened_zip:
